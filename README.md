@@ -1,9 +1,3 @@
----
-title: README.md
-tags: mysql:5.7 docker 说明
-renderNumberedHeading: true
-grammar_cjkRuby: true
----
 
 #  启动命令
 `docker run -p 3306:3306 -d -v /app/mysql/data/:/var/lib/mysql/  -v mysql_conf:/etc/mysql/conf.d/ -e MYSQL_USER=root@'%' -e MYSQL_PASSWORD=123456 -e MYSQL_DATABASE='*' -e MYSQL_ROOT_PASSWORD=123456 --name mysql mysql:5.7 
