@@ -1,0 +1,11 @@
+[mysqld]
+bind-address=0.0.0.0
+user=mysql
+basedir=/usr
+datadir=/var/lib/mysql
+server_id=6
+port=3306
+lower_case_table_names=1
+server_id=6
+[mysql]
+socket=/var/run/mysqld/mysqld.sock
